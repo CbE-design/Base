@@ -1,4 +1,4 @@
-app = 'base-mainnet'
+app = 'base-mainnet-8453'
 primary_region = 'ams'
 
 [build]
