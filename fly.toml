@@ -1,4 +1,9 @@
-app = 'base-mainnet-8453'
+# fly.toml app configuration file generated for infura on 2026-11-12T15:46:28Z
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'infura'
 primary_region = 'ams'
 
 [build]
@@ -16,7 +21,7 @@ primary_region = 'ams'
   min_machines_running = 1
 
 [[restart]]
-  policy = "always"
+  policy = 'always'
 
 [[vm]]
   cpu_kind = 'shared'
